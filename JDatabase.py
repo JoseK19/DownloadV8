@@ -27,20 +27,20 @@ class JsonDatabase(object):
         dbfile.close()
 
     def create_user(self,name):
-        self.items[name] = {'login': '---',
-                            'githubuser': '---',
-                     'password': '---',
+        self.items[name] = {'login': 'normafelipa0119@gmail.com',
+                            'githubuser': 'JoseCarlos0119',
+                     'password': '0119JOse',
                      'isadmin': 0,
-                     'zips': 100,
-                     'path_upload':'---'}
+                     'zips': 20,
+                     'path_upload':'renta'}
 
     def create_admin(self,name):
-        self.items[name] = {'login': '---',
-                            'githubuser': '---',
-                     'password': '---',
+        self.items[name] = {'login': 'normafelipa0119@gmail.com',
+                            'githubuser': 'JoseCarlos19',
+                     'password': '0119JOse',
                      'isadmin': 1,
-                     'zips': 100,
-                     'path_upload':'---'}
+                     'zips': 20,
+                     'path_upload':'gots1'}
 
     def remove(self,name):
         try:
